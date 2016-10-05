@@ -50,6 +50,7 @@
 
     <artifactId>jersey-test-framework-provider-jetty</artifactId>
     <packaging>jar</packaging>
+        <version>2.23.1-WOMPLY-1</version>
     <name>jersey-test-framework-provider-jetty</name>
 
     <description>Jersey Test Framework - Jetty HTTP container</description>
@@ -58,7 +59,7 @@
         <dependency>
             <groupId>org.glassfish.jersey.test-framework</groupId>
             <artifactId>jersey-test-framework-core</artifactId>
-            <version>${project.version}</version>
+            <version>2.23.1</version>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jersey.containers</groupId>
